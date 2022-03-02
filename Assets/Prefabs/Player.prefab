@@ -116,7 +116,7 @@ MonoBehaviour:
   meshRenderer: {fileID: 6269409277091806993}
   flashInterval: 0.1
   flashTimeLength: 1.5
-  bulletTemplate: {fileID: 5584978796684134404, guid: 7d8278f35ac31b34ab53f3d5b7a915f1, type: 3}
+  bulletTemplate: {fileID: 0}
 --- !u!54 &6269409277091806996
 Rigidbody:
   m_ObjectHideFlags: 0

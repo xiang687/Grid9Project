@@ -18,7 +18,10 @@ public class Player : Unit
     {
         Move();
         Success();
-        Fire();
+        if (bulletTemplate != null)
+        {
+            Fire();
+        }
     }
 
     public void Move()

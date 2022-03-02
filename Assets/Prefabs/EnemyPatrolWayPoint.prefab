@@ -126,6 +126,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04ac9171f87fef645bd977b7df550d37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapManager: {fileID: 0}
+  goal: {fileID: 0}
+  rb: {fileID: 479354120}
+  previousPosition: {x: 0, y: 0, z: 0}
+  meshRenderer: {fileID: 371630008061197716}
+  flashInterval: 0.1
+  flashTimeLength: 1.5
   WayPoints:
   - {fileID: 0}
   - {fileID: 0}

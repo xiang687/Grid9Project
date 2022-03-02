@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyPatrolWayPoint : MonoBehaviour
+public class EnemyPatrolWayPoint : Unit
 {
     public Transform[] WayPoints;
 
@@ -11,7 +11,7 @@ public class EnemyPatrolWayPoint : MonoBehaviour
     int nextIndex = 0;
 
     // Update is called once per frame
-    void Update()
+    public override void OnUpdate()
     {
         direction = (WayPoints[nextIndex].position - this.transform.position).normalized;
         this.transform.Translate(direction * moveSpeed * Time.deltaTime);
