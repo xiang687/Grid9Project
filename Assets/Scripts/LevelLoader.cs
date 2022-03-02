@@ -20,7 +20,7 @@ public class LevelLoader : MonoBehaviour
     }
 
     // Initialization
-    void Init() 
+    void Init()
     {
         gameManagerGameObject = GameObject.Find("GameManager");
         audioManagerGameObject = GameObject.Find("AudioManager(Clone)");
@@ -76,7 +76,10 @@ public class LevelLoader : MonoBehaviour
         }
         else
         {
-            menuManagerGameObject.transform.Find("UI").gameObject.SetActive(false);
+            if (SceneManager.GetActiveScene().buildIndex == 1)
+            {
+                menuManagerGameObject.transform.Find("UI").gameObject.SetActive(false);
+            }
         }
     }
 }

@@ -31,8 +31,7 @@ public class MapManager : MonoBehaviour
 
     void Init()
     {
-        goal = GameObject.Find("Goal");
-        GameObject[] portalArray = GameObject.FindGameObjectsWithTag("Portal");
+        goal = GameObject.Find("Goal");  
 
         for (int i = -1; i <= 1; i++)
         {
@@ -68,9 +67,13 @@ public class MapManager : MonoBehaviour
             }
         }
 
-        foreach (var item in portalArray)
+        if (GameObject.FindGameObjectsWithTag("Portal") != null)
         {
-            legalLocationList.Add(item.gameObject.transform.position);
+            GameObject[] portalArray = GameObject.FindGameObjectsWithTag("Portal");
+            foreach (var item in portalArray)
+            {
+                legalLocationList.Add(item.gameObject.transform.position);
+            }
         }
     }
 

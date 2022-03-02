@@ -1072,10 +1072,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -7624204134069714456, guid: 3f25f44e16b193d4f9f17e2f8210cd8c, type: 3}
-      propertyPath: WayPoints.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: -7624204134069714456, guid: 3f25f44e16b193d4f9f17e2f8210cd8c, type: 3}
       propertyPath: WayPoints.Array.data[0]
       value: 
       objectReference: {fileID: 1228999359}
@@ -1095,10 +1091,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyPatrolWayPoint
       objectReference: {fileID: 0}
-    - target: {fileID: 371630008061197717, guid: 3f25f44e16b193d4f9f17e2f8210cd8c, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 769982789}
     - target: {fileID: 371630008061197718, guid: 3f25f44e16b193d4f9f17e2f8210cd8c, type: 3}
       propertyPath: m_Mesh
       value: 

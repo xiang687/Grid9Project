@@ -1124,13 +1124,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f64b9e9cc48c764f8c89e19ded93e60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playButton: {fileID: 0}
-  optionsButton: {fileID: 0}
-  quitButton: {fileID: 0}
-  backButton: {fileID: 0}
-  optionsQuitButton: {fileID: 0}
-  restartButton: {fileID: 0}
-  finishQuitButton: {fileID: 0}
+  playButton: {fileID: 2040606225510254757}
+  optionsButton: {fileID: 2040606225591003435}
+  quitButton: {fileID: 2040606225168440173}
+  backButton: {fileID: 2040606224667003259}
+  optionsQuitButton: {fileID: 6893496215391991736}
+  restartButton: {fileID: 24252706420941677}
+  finishQuitButton: {fileID: 8675768261013599619}
 --- !u!1 &2040606224406976395
 GameObject:
   m_ObjectHideFlags: 0
